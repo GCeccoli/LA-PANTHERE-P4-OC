@@ -18,21 +18,6 @@ a:hover {
     cursor: pointer;
 }
 
-.row3 {
-    width: 65%;
-    margin: auto;
-}
-
-.rowtitle {
-    color: rgb(109, 109, 109)!important;
-    line-height: 25px;
-}
-
-.row2{
-    width: 100%;
-    text-align: center;
-}
-
 .avis {
     font-size: 22px;
     font-style: italic;
@@ -44,10 +29,6 @@ a:hover {
 cite {
     font-style: normal;
     font-size: 16px;
-}
-
-.title-bloc-4 {
-    color: rgb(109, 109, 109);
 }
 
 #page-loading-blocs-notifaction {

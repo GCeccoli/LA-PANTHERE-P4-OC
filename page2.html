@@ -2,9 +2,10 @@
 <html lang="Default">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="agence webdesign Lyon, conception graphique, site web, UI/UX design, designers web Rhône-Alpes, contact graphistes web">
+    <meta name="description" content="Contactez notre équipe d'experts ! Ils vous accompagneront pour tous vos projets.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="robots" content="index,follow">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
@@ -18,7 +19,7 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+    <title>Contactez notre équipe de graphistes. Agence de web design La Panthère, Lyon.</title>
 
     
 <!-- Analytics -->
@@ -35,7 +36,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="atlanta web design logo" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="Logo de l'agence La Panthère à Lyon" height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -84,25 +85,26 @@
 					<div class="form-group">
 						<label>
 							Nom
+							<input id="nom" class="form-control" required />
 						</label>
-						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
+							<input id="email" class="form-control" type="email" required />
 						</label>
-						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
+							<input class="form-control" type="email" required id="input_504" />
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
