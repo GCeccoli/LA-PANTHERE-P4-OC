@@ -29,6 +29,7 @@ a:hover {
 cite {
     font-style: normal;
     font-size: 16px;
+    color: #404040;
 }
 
 #page-loading-blocs-notifaction {
@@ -208,7 +209,7 @@ cite {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .9);
 }
 
 .d-bloc .panel button:hover,
